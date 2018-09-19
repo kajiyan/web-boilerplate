@@ -1,0 +1,23 @@
+{
+  "name": "wev-boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kajiyan/web-boilerplate.git"
+  },
+  "engines": {
+    "npm": ">=5",
+    "node": ">=8"
+  },
+  "author": "Hiroki Kajiya",
+  "license": "MIT",
+  "scripts": {
+    "setup": "node ./internals/scripts/setup.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "shelljs": "^0.8.2"
+  }
+}
